@@ -4,7 +4,9 @@
   font-family: sans-serif;
 }
 body {
-  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  background: url(chill.jpg);
 }
 #navbar {
   position: fixed;
@@ -36,4 +38,16 @@ body {
   height: 5px;
   background-color: #151719;
   margin: 5px;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  color: white;
+  font-size: 100px;
 }
