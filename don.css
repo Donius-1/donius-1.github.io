@@ -3,34 +3,37 @@
   padding: 0px;
   font-family: sans-serif;
 }
-
+body {
+  background-color: lightblue;
+}
 #navbar {
   position: fixed;
-  width: 200px;
+  width: 30%;
   height: 100%;
-  background: #151719;
-  left: -200px;
+  background-color: #151719;
+  left: -30%;
 }
 #navbar.active {
   left: 0px;
 }
-#navbar ul li {
-  color: rgba(230, 230, 230, 0.9);
-  list-style: none;
-  padding: 15px 10px;
-  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+#navbar li {
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-bottom: 1px solid gray;
+  text-align: center;
 }
 
-#navbar .navtoggle {
+.navtoggle {
   position: absolute;
-  left: 230px;
+  left: 105%;
   top: 20px;
 }
 
-#navbar .navtoggle span {
+.navtoggle span {
   display: block;
   width: 30px;
   height: 5px;
-  background: #151719;
-  margin: 5px 0px;
+  background-color: #151719;
+  margin: 5px;
 }
