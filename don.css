@@ -52,7 +52,7 @@ ul li.active a {
   position: absolute;
   top: 50%;
   width: 1000px;
-  height: 1000px;
+  height: 900px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
